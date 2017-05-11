@@ -4,6 +4,16 @@
   spinner.src = 'https://i1.wp.com/cdnjs.cloudflare.com/ajax/libs/galleriffic/2.0.1/css/loader.gif'
   element.appendChild(spinner);
 
+
+  var styleTag = document.createElement("link");
+  styleTag.rel = "stylesheet";
+  styleTag.type = "text/css";
+
+  styleTag.href = "https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css";
+  styleTag.media = "all";
+
+  document.getElementsByTagName("head")[0].appendChild(styleTag)
+
   var xhr = new XMLHttpRequest();
   xhr.open('GET', 'http://localhost:8888/hitmarker/jobs.json');
   xhr.send(null);
