@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function(event) {
+(function (){
   var element = document.getElementById("hitmarker-jobs-feed");
   var spinner = document.createElement("img");
   spinner.src = 'https://i1.wp.com/cdnjs.cloudflare.com/ajax/libs/galleriffic/2.0.1/css/loader.gif'
@@ -34,4 +34,4 @@ document.addEventListener("DOMContentLoaded", function(event) {
       element.appendChild(jobWrapper);
     }
   }
-});
+})();
