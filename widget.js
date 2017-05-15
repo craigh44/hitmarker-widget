@@ -66,7 +66,7 @@
           //create link wrapper
           var jobWrapper = document.createElement("a");
           jobWrapper.target = "_blank";
-          jobWrapper.href = jobs[i].url;
+          jobWrapper.href = jobs[i].url + ( jobs[i].url.indexOf("?") >= 0 ? "&" : "?") + 'ref=' + encodeURIComponent(window.location.href);;
           jobWrapper.classList.add('job');
 
           var logoWrapper = document.createElement("div");
