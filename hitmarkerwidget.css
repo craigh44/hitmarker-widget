@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
 
-body {
+#hitmarker-widget {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
 	color: #0A0A0A;
@@ -8,17 +8,17 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-weight: var(--font-weight-normal);
 }
-img, svg {
+#hitmarker-widget img, svg {
 	vertical-align: middle;
 }
-a {
+#hitmarker-widget a {
 	color: currentColor;
 	text-decoration: none;
 }
-.widget {
+#hitmarker-widget .widget {
 	border: 1px solid #E2E2E2;
 }
-.title {
+#hitmarker-widget .title {
 	font-weight: 700;
 	text-transform: uppercase;
 	letter-spacing: .05em;
@@ -34,10 +34,10 @@ a {
   -ms-flex-align: center;
   align-items: center;
 }
-.title span {
+#hitmarker-widget .title span {
 	margin-left: .5rem;
 }
-.job {
+#hitmarker-widget .job {
 	border-top: 1px solid #E2E2E2;
 	padding: 1rem;
 
@@ -45,25 +45,25 @@ a {
   display: -ms-flexbox;
   display: flex;
 }
-.job:hover,
-.job:focus {
+#hitmarker-widget .job:hover,
+#hitmarker-widget .job:focus {
 	background-color: #FBFBFB;
 }
-.logo {
+#hitmarker-widget .logo {
 	margin-right: .75rem;
 
 	-webkit-box-flex: 0;
   -ms-flex: none;
   flex: none;
 }
-.info {
+#hitmarker-widget .info {
 	-webkit-box-flex: 1;
 	-ms-flex: 1 1 auto;
 	flex: 1 1 auto;
 	min-width: 0;
 	min-height: 0;
 }
-.company {
+#hitmarker-widget .company {
 	white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -71,7 +71,7 @@ a {
 	font-weight: 700;
 	margin-bottom: 2px;
 }
-.role {
+#hitmarker-widget .role {
 	white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -79,7 +79,7 @@ a {
 	font-size: .875rem;
 	margin-bottom: 5px;
 }
-.location {
+#hitmarker-widget .location {
 	white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -87,7 +87,7 @@ a {
 	font-size: .75rem;
 	margin-bottom: 5px;
 }
-.time {
+#hitmarker-widget .time {
 	white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -95,7 +95,7 @@ a {
 	font-size: .75rem;
 	color: #ADADAD;
 }
-.footer {
+#hitmarker-widget .footer {
 	border-top: 1px solid #E2E2E2;
 	padding: .5rem 1rem;
 
@@ -103,12 +103,12 @@ a {
   display: -ms-flexbox;
   display: flex;
 }
-.footer a {
+#hitmarker-widget .footer a {
 	color: #F70;
 	font-size: .75rem;
 	line-height: 1;
 }
-.footer span {
+#hitmarker-widget .footer span {
 	text-align: right;
 	margin-left: .5rem;
 	-webkit-box-flex: 1;
