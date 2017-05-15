@@ -5,9 +5,9 @@
     var parser = new DOMParser();
     var spinner = parser.parseFromString(stringContainingXMLSource, "image/svg+xml");
 
-    console.log(spinner.firstChild.innerHTML;);
+    console.log(spinner.firstChild;);
 
-    element.appendChild(spinner.firstChild.innerHTML;);
+    element.appendChild(spinner.firstChild;);
 
     var normalizeStyles = document.createElement("link");
     var hitmarkerStyles = document.createElement("link");
