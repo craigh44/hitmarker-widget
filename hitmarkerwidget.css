@@ -17,6 +17,7 @@
 }
 #hitmarker-widget {
 	border: 1px solid #E2E2E2;
+	background-color: #fff;
 }
 #hitmarker-widget .title {
 	font-weight: 700;
