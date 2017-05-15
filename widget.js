@@ -1,10 +1,6 @@
 (function (){
     var element = document.getElementById("hitmarker-jobs-feed");
-    var spinner = document.createElement("img");
-    spinner.src = 'https://i1.wp.com/cdnjs.cloudflare.com/ajax/libs/galleriffic/2.0.1/css/loader.gif';
-    spinner.width = '50';
-    spinner.height = '50';
-    element.appendChild(spinner);
+    var spinner = document.getElementById("hitmarker-spinner");
 
     var normalizeStyles = document.createElement("link");
     var hitmarkerStyles = document.createElement("link");
