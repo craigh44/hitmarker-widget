@@ -13,7 +13,7 @@
     document.getElementsByTagName("head")[0].appendChild(hitmarkerStyles);
 
     var xhr = new XMLHttpRequest();
-    xhr.open('GET', 'http://localhost:8888/hitmarker/jobs.json');
+    xhr.open('GET', 'https://hitmarkerjobs.com/jobs.json');
     xhr.send(null);
 
     xhr.onreadystatechange = function () {
