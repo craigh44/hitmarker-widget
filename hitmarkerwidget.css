@@ -118,3 +118,7 @@
 	min-width: 0;
 	min-height: 0;
 }
+
+#hitmarker-widget .logo-image {
+	border-radius: 100%;
+}

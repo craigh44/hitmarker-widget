@@ -80,6 +80,7 @@
           logoImg.src = jobs[i].imageUrl;
           logoImg.width = '32';
           logoImg.height = '32';
+          logoImg.class = 'logo-image';
 
           logoWrapper.appendChild(logoImg);
           jobWrapper.appendChild(logoWrapper);
